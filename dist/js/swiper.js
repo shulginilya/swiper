@@ -1258,8 +1258,8 @@
     }
 
     // Subtract paddings
-    width = width - parseInt($el.css('padding-left'), 10) - parseInt($el.css('padding-right'), 10);
-    height = height - parseInt($el.css('padding-top'), 10) - parseInt($el.css('padding-bottom'), 10);
+    // width = width - parseInt($el.css('padding-left'), 10) - parseInt($el.css('padding-right'), 10);
+    // height = height - parseInt($el.css('padding-top'), 10) - parseInt($el.css('padding-bottom'), 10);
 
     Utils.extend(swiper, {
       width: width,
